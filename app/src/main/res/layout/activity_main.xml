@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal"
+    android:background="#F8F1F1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:text="مكية"
+        android:textColor="#2196F3"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_width="300dp"
+        android:background="#CAC7C7"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="سورة الفاتحة"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="right"
+            android:textSize="20dp"
+            android:textStyle="bold"
+        />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        android:background="#DCD1D1"
+            >
+            <TextView
+                android:id="@+id/textView234"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="صفحة :7"
+
+                />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="عدد الايات : 7"
+                android:layout_marginRight="30dp"
+                android:textColor="#888585"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+       android:layout_marginRight="20dp"
+        android:text="1"
+        android:gravity="right"
+        android:paddingRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
